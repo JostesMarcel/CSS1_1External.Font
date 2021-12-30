@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: Matrix;
+    src: url(../font/MLTWNII_.ttf);
+}
+@font-face {
+    font-family: Squid;
+    src: url(../font/Game\ Of\ Squids.ttf);
+}
+
+h1 {
+    background-color: gray;
+    text-align: center;
+}
+
+section {
+    font-family: "Imperial Script", cursiv;
+}
+
+main:nth-of-type(1) p:first-child {
+    font-family: 'Bebas Neue', cursive;
+}
+
+aside p {
+    font-family: Matrix;
+}
+
+nav p {
+    font-family: 'Rock 3D', cursive;
+}
+
+footer p {
+    font-family: Squid;
+}
